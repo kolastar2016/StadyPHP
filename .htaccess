@@ -1,0 +1,23 @@
+# 1. Установка главной страницы по умолчанию
+#-- DirectoryIndex index.shtml index.html index.htm index.php3 index.php
+DirectoryIndex shop.php
+
+# 2. Определение страниц ошибок (error) в .htaccess
+ErrorDocument 403 /error/page403.html
+ErrorDocument 404 /error/page404.html
+ErrorDocument 500 /error/page500.html
+
+## Указание кодировки по умолчанию koi8-r, windows-1251, utf-8 или iso-8859-1 (English, etc)
+AddDefaultCharset windows-1251
+# Что бы указать кодировку на загружаемые файлы
+#CharsetSourceEnc windows-1251
+
+# Если необходимо отменить перекодировку сервером файлов:
+#CharsetDisable on
+
+# Запрет выдачи листинга пустого каталога
+#Options +Indexes
+Options -Indexes
+
+# При этом чаcть файлов формата *.php* *.pl не отображается
+IndexIgnore *.php* *.pl

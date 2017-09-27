@@ -1,0 +1,43 @@
+/*
+	Таблица каскадных стилей для моего персонального сайта
+*/
+/*----------------------------------------------------------------------------*/
+/*-- Дополнительные функциональные Элементы                                 --*/
+/*-- Горизонтальное меню                                                    --*/
+ul.h_menu
+{
+	margin: 0; /* Обнуляем значение отступов */
+	padding: 4px; /* Значение полей */
+}
+ul.h_menu li
+{
+	display: inline; /* Отображать как строчный элемент */
+	margin-right: 5px; /* Отступ слева */
+	border: 1px solid #f1f1d1; /* Рамка вокруг текста */
+	padding: 7px; /* Поля вокруг текста */
+}
+li a
+{
+	color: #0000ff;
+	font-weight: bolder;
+	text-decoration: none;
+}
+li a:hover
+{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+li a:visited
+{
+	color: #0000ff;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+ul.h_menu li:hover
+{
+	background: #ffffff;
+}
+.selected
+{
+	background: #ffffff;
+}
