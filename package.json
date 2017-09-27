@@ -1,0 +1,19 @@
+{
+  "name": "sitephp",
+  "version": "1.0.0",
+  "description": "My_first_site_in_php",
+  "main": "shop.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolastar2016/StadyPHP.git"
+  },
+  "author": "Mikola Shulyak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolastar2016/StadyPHP/issues"
+  },
+  "homepage": "https://github.com/kolastar2016/StadyPHP#readme"
+}
